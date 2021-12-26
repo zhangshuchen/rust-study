@@ -1,3 +1,4 @@
+// 参考https://rustwiki.org/zh-CN/book/ch01-00-getting-started.html
 use std::io; // 输入输出库
 use rand::Rng; // 生成随机数
 use std::cmp::Ordering; // 比较随机数据大小
@@ -12,7 +13,7 @@ fn main() {
     loop {
 
         println!("please input your guess.");
-        // 创建一个变量
+        // 创建一个可变变量
         let mut guess = String::new(); // 静态类型的静态方法
 
         io::stdin()
